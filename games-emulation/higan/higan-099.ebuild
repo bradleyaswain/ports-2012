@@ -33,6 +33,7 @@ RDEPEND="
 	!qt4? ( x11-libs/gtk+:2 )
 	qt4? ( >=dev-qt/qtgui-4.5:4 )"
 DEPEND="${RDEPEND}
+	app-arch/p7zip
 	virtual/pkgconfig"
 
 S=${WORKDIR}/${MY_P}
